@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		
+	</title>
+	<style type="text/css">
+		h1,h2{
+			text-align:center;
+		}
+	</style>
+
+</head>
+<body>
+	<h1>JAVASCRIPT LESSON</h1>
+	<h2>Const</h2>
+	<script type="text/javascript" src="const.js">
+		
+	</script>
+	<h2>Map Method</h2>
+	<script type="text/javascript">
+		var ary=[11,4,9,16];
+		var b= ary.map(test);
+		document.write(b);
+		function test(x)
+		{
+			return x*10;
+		}
+		document.write("<br>");
+	</script>
+	<script type="text/javascript">
+		var ary2=[{fname:"Yahoo",lname:"Baba"},{fname:"Chillox",lname:"Mehta"},{fname:"Rahul",lname:"Imtiaz"}];
+		var c = ary2.map(print);
+		document.write(c);
+		function print(n)
+		{
+			return n.fname + " " + n.lname;
+		}
+	</script>
+</body>
